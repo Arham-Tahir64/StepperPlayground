@@ -12,7 +12,7 @@ const int EN_PIN_1 = 4;
 const int STEP_PIN_1 = 5;
 const int DIR_PIN_1 = 6;
 
-const int SPEED = 400;
+const int SPEED = 800;
 
 AccelStepper StepperX(AccelStepper::DRIVER, STEP_PIN_2, DIR_PIN_2);
 AccelStepper StepperY(AccelStepper::DRIVER, STEP_PIN_1, DIR_PIN_1);
